@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:'monserrant', sans-serif;
+}
+
+header{ 
+    display: flex;
+    align-items: content;
+    padding: 10px 20px;
+    background-color: rgb(52, 135, 173)
+
+}
+
+header img{
+    width: 75px;
+    height: auto;
+    margin-right: 15px;
+}
