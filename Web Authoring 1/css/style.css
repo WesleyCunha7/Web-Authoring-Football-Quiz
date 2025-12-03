@@ -1,20 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-body{
-    background-color: rgb(255, 255, 255);
-    font-family:'monserrant', sans-serif;
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header{ 
+header {
     display: flex;
-    align-items: content;
-    padding: 10px 20px;
-    background-color: rgb(52, 135, 173)
-
+    align-items: center;
+    padding: 15px 20px;
+    background-color: rgb(52, 135, 173);
 }
 
-header img{
-    width: 75px;
-    height: auto;
+header .logo {
+    width: 70px;
     margin-right: 15px;
+}
+
+nav a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.intro {
+    text-align: center;
+    font-size: 18px;
+}
+
+.start-btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background-color: #008000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.start-btn:hover {
+    background-color: #006400;
+}
+
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 80%;
+    text-align: left;
+}
+
+table caption {
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 2px solid #ddd;
+}
+
+.badge {
+    width: 35px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.hero-img {
+    width: 90%;
+    max-height: 350px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #eee;
 }
